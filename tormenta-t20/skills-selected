@@ -1,0 +1,31 @@
+&{template:t20}{{character=%{selected|character_name}}}?{Habilidade
+|STR,{{rollname=Força Pura&#125;&#125;{{theroll=[[1d20+[[%{selected|for_mod}]]]]&#125;&#125;
+|DEX,{{rollname=Destreza Pura&#125;&#125;{{theroll=[[1d20+[[%{selected|des_mod}]]]]&#125;&#125;
+|CON,{{rollname=Constituição Pura&#125;&#125;{{theroll=[[1d20+[[%{selected|con_mod}]]]]&#125;&#125;
+|INT,{{rollname=Inteligência Pura&#125;&#125;{{theroll=[[1d20+[[%{selected|int_mod}]]]]&#125;&#125;
+|WIS,{{rollname=Sabedoria Pura&#125;&#125;{{theroll=[[1d20+[[%{selected|sab_mod}]]]]&#125;&#125;
+|CHAR,{{rollname=Carisma Puro&#125;&#125;{{theroll=[[1d20+[[%{selected|car_mod}]]]]&#125;&#125;
+|Acrobacia,{{rollname=acrobacia&#125;&#125;{{theroll=[[1d20+[[%{selected|acrobaciatotal}]]]]&#125;&#125;
+|Adestramento,{{rollname=adestramento&#125;&#125;{{theroll=[[1d20+[[%{selected|adestramentototal}]]]]&#125;&#125;
+|Atletismo,{{rollname=atletismo&#125;&#125;{{theroll=[[1d20+[[%{selected|atletismototal}]]]]&#125;&#125;
+|Atuação,{{rollname=atuacao&#125;&#125;{{theroll=[[1d20+[[%{selected|atuacaototal}]]]]&#125;&#125;
+|Cavalgar,{{rollname=cavalgar&#125;&#125;{{theroll=[[1d20+[[%{selected|cavalgartotal}]]]]&#125;&#125;
+|Conhecimento,{{rollname=conhecimento&#125;&#125;{{theroll=[[1d20+[[%{selected|conhecimentototal}]]]]&#125;&#125;
+|Cura,{{rollname=cura&#125;&#125;{{theroll=[[1d20+[[%{selected|curatotal}]]]]&#125;&#125;
+|Diplomacia,{{rollname=diplomacia&#125;&#125;{{theroll=[[1d20+[[%{selected|diplomaciatotal}]]]]&#125;&#125;
+|Enganação,{{rollname=enganacao&#125;&#125;{{theroll=[[1d20+[[%{selected|enganacaototal}]]]]&#125;&#125;
+|Furtividade,{{rollname=furtividade&#125;&#125;{{theroll=[[1d20+[[%{selected|furtividadetotal}]]]]&#125;&#125;
+|Guerra,{{rollname=guerra&#125;&#125;{{theroll=[[1d20+[[%{selected|guerratotal}]]]]&#125;&#125;
+|Intimidação,{{rollname=intimidacao&#125;&#125;{{theroll=[[1d20+[[%{selected|intimidacaototal}]]]]&#125;&#125;
+|Investigação,{{rollname=investigacao&#125;&#125;{{theroll=[[1d20+[[%{selected|investigacaototal}]]]]&#125;&#125;
+|Jogatina,{{rollname=jogatina&#125;&#125;{{theroll=[[1d20+[[%{selected|jogatinatotal}]]]]&#125;&#125;
+|Ladinagem,{{rollname=ladinagem&#125;&#125;{{theroll=[[1d20+[[%{selected|ladinagemtotal}]]]]&#125;&#125;
+|Misticismo,{{rollname=misticismo&#125;&#125;{{theroll=[[1d20+[[%{selected|misticismototal}]]]]&#125;&#125;
+|Nobreza,{{rollname=nobreza&#125;&#125;{{theroll=[[1d20+[[%{selected|nobrezatotal}]]]]&#125;&#125;
+|Oficio 1,{{rollname=oficio&#125;&#125;{{theroll=[[1d20+[[%{selected|oficiototal}]]]]&#125;&#125;
+|Oficio 2,{{rollname=oficio2&#125;&#125;{{theroll=[[1d20+[[%{selected|oficio2total}]]]]&#125;&#125;
+|Pilotagem,{{rollname=pilotagem&#125;&#125;{{theroll=[[1d20+[[%{selected|pilotagemtotal}]]]]&#125;&#125;
+|Religiao,{{rollname=religiao&#125;&#125;{{theroll=[[1d20+[[%{selected|religiaototal}]]]]&#125;&#125;
+|Sobrevivência,{{rollname=sobrevivencia&#125;&#125;{{theroll=[[1d20+[[%{selected|sobrevivenciatotal}]]]]&#125;&#125;
+|Vontade,{{rollname=vontade&#125;&#125;{{theroll=[[1d20+[[%{selected|vontadetotal}]]]]&#125;&#125;
+}
