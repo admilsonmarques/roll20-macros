@@ -1,0 +1,1 @@
+&{template:t20}{{character=%{selected|character_name}}}{{rollname=iniciativa}}{{theroll=[[1d20+[[%{selected|iniciativatotal}]]&{tracker}]]}}
