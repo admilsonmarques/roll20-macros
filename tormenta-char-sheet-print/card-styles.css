@@ -1,0 +1,103 @@
+.ability-card {
+  width: 290px;
+  height: 406px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 4px solid #333;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  background-color: #fcfcfc;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+/* --- ITEM CARD HALF SIZE OVERRIDE (Mini-USA Standard) --- */
+.ability-card.equipment {
+  width: 202px;
+  height: 282px;
+  border-width: 2px;
+  border-radius: 16px;
+  padding: 5px;
+  /* Keep original font sizes */
+}
+
+/* --- Text Styling --- */
+.card-name {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  max-height: 3em !important;
+  line-height: 1.5em !important;
+  font-family: "Contrail One", sans-serif;
+  font-size: 1.5em;
+  margin: 0 0 5px 0;
+  text-align: center;
+  color: #0e0e0e;
+}
+.ability-card.equipment .card-name {
+  font-size: 0.95em;
+  margin-bottom: 2px;
+  max-height: 1.8em;
+  line-height: 0.9em;
+}
+
+.card-type-bar {
+  color: white;
+  font-weight: bold;
+  padding: 4px 5px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.85em;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text {
+  font-size: 0.9em;
+  line-height: 1.25;
+  text-align: left;
+  flex-grow: 1;
+  white-space: pre-wrap !important;
+  font-weight: normal;
+}
+
+/* --- DUAL-SIDE FOOTER STYLE --- */
+.card-footer {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid #ccc;
+  font-size: 0.8em;
+  font-style: italic;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-footer .footer-left {
+  font-weight: bold;
+  text-align: left;
+  white-space: nowrap;
+}
+.card-footer .footer-right {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* --- Type-Based Colors --- */
+.ability .card-type-bar {
+  background-color: #da0f20;
+}
+.menace .card-type-bar {
+  background-color: #ab893a;
+}
+.magic .card-type-bar {
+  background-color: #007bff;
+}
+.equipment .card-type-bar {
+  background-color: #535353;
+}
