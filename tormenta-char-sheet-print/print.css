@@ -1,0 +1,162 @@
+@media print {
+  /* 1. Global Reset: Hide UNWANTED UI elements (same as before) */
+  .nav-tabs,
+  #edit-button,
+  #background,
+  #macrobar,
+  .draggableresult,
+  lottie-player,
+  .repcontrol,
+  .sheet-navegacao,
+  .sheet-equipment-container,
+  .sheet-content-grid,
+  .sheet-powers-and-abilities {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+  }
+
+  /* 2. CORE Structural Containers: Enforce full flow visibility */
+  #dialog-window,
+  .dialog,
+  #tab-content,
+  .charactersheet {
+    position: static !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    visibility: visible !important;
+    display: block !important;
+    overflow: visible !important;
+  }
+
+  .sheetform,
+  .sheetform * {
+    visibility: inherit !important;
+    overflow: visible !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  #card-output-container-unified {
+    visibility: visible !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    align-content: flex-start !important;
+
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    background-color: white !important;
+    position: static !important;
+    gap: 0px !important;
+    page-break-after: auto !important;
+  }
+
+  /* 3. Card Styling & Page Break Avoidance */
+  .ability-card {
+    width: 290px !important;
+    height: 406px !important;
+    page-break-inside: avoid !important;
+    box-shadow: none !important;
+    background-color: white !important;
+    border: 2px solid black !important;
+    color: black !important;
+    margin: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .ability-card.equipment {
+    width: 202px !important;
+    height: 282px !important;
+    border-width: 1px !important;
+    border-radius: 7px !important;
+    padding: 5px !important;
+    margin: 0 !important;
+  }
+
+  /* Global card-name print settings */
+  .card-name {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    max-height: 3em !important;
+    line-height: 1.5em !important;
+  }
+
+  /* Item card specific print font size settings */
+  .ability-card.equipment .card-name {
+    font-size: 0.9em !important;
+    margin-bottom: 2px !important;
+    max-height: 1.8em !important;
+    line-height: 0.9em !important;
+  }
+  .card-type-bar {
+    color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .ability .card-type-bar {
+    background-color: #da0f20 !important;
+  }
+  .menace .card-type-bar {
+    background-color: #ab893a !important;
+  }
+  .magic .card-type-bar {
+    background-color: #007bff !important;
+  }
+  .equipment .card-type-bar {
+    background-color: #535353 !important;
+  }
+
+  /* PM Highlight Colors */
+  .ability-card .card-text span {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .ability .card-text span.pm-highlight,
+  .ability .card-text span {
+    color: #da0f20 !important;
+  }
+  .menace .card-text span.pm-highlight,
+  .menace .card-text span {
+    color: #ab893a !important;
+  }
+  .magic .card-text span.pm-highlight,
+  .magic .card-text span {
+    color: #007bff !important;
+  }
+  .equipment .card-text span.pm-highlight,
+  .equipment .card-text span {
+    color: #535353 !important;
+  }
+
+  .card-text {
+    overflow: visible !important;
+    max-height: none !important;
+    white-space: pre-wrap !important;
+  }
+
+  .card-footer .footer-left,
+  .card-footer .footer-right {
+    white-space: nowrap !important;
+  }
+
+  .sheet-main,
+  .sheet-left-container,
+  .sheet-right-container {
+    page-break-inside: avoid;
+  }
+}
